@@ -1,0 +1,20 @@
+{
+ "courseName" : "QA Course by Vadim Ksendzov",
+ "groupName" : "Group_30_QA",
+ "taskName" : "GIT homework 1 (JSON)",
+ "invironment" : "Windows 10, Notepad++",
+
+ "telegram" : "@maks_tbat",
+ "location" : "Minsk, Belarus",
+
+
+ "infoAboutme" : [
+  {
+   "name" : "Maksim",
+   "surname" : "Batrakou",
+   "age" : 41,
+   "petsNumber" : 1,
+   "expectedSalary" : "$2000 a month"
+  }
+ ]
+}
