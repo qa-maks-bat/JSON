@@ -77,7 +77,7 @@ Location: Minsk, Belarus
 	GitHub (Go to file "bug_report.json" - Edit this file - Fill in the file)
 
 19. Сделать Commit changes (сохранить) изменения на веб интерфейсе:
-	GitHub (Press "Commit changes")
+	GitHub (Write a commit  massage and press "Commit changes")
 	 
 20. Синхронизировать внешний и локальный репозиторий JSON:
 	$ git pull
