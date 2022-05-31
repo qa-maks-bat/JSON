@@ -1,1 +1,34 @@
+{
+  "title" : {
+    "widgetIcon" : "widget size values",
+    "widgetHeight" : 0,
+    "widgetWidth" : 0
+  },
 
+  "bug_ID" : 102,
+  
+  "severity" : "Minor",
+  "priority" : "Low",
+  
+  "invironment" : "Redmi Note 8 M1908C3JG",
+   "operSystem" : "Android 10",
+  
+  "precondition" : "Open the App",
+  "str": [
+    "1) click button 'Add widget'",
+    "2) hide the application",
+    "3) look at the widget icon"
+  ],
+  
+  "actResult" : {
+    "arHeight" : "Height (H) parameter is set to '0'",
+    "arWidth" : "Width (W) parameter is set to '0'"
+  },
+  
+  "expResult" : {
+    "erHeight" : "Height (H) parameter is in a value of the screen resolution settings set by the user",
+    "erWidth" : "Width (W) parameter is in a value of the screen resolution settings set by the user"
+  },
+  
+  "attachments" : "https://drive.google.com/file/d/1vQ_dc2Dkg2FlycsTAk9e5Qx1jw9_6N3T/view?usp=sharing"
+}
