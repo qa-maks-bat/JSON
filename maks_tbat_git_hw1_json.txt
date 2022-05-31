@@ -1,0 +1,85 @@
+QA Course by Vadim Ksendzov 
+	 
+Group_30_QA
+
+GIT homework 1 (JSON)
+	 
+Invironment: Windows 10, Notepad++
+
+
+Telegram: @maks_tbat 
+
+Name: Maksim Batrakou
+	 
+Location: Minsk, Belarus
+
+
+
+#!/bin/bash
+	 
+4. Создать внешний репозиторий c названием JSON:
+	$ cd ~/Group_30_QA/GIT
+	$ git init JSON
+	
+5. Клонировать репозиторий JSON на локальный компьютер:
+	$ git clone https://github.com/qa-maks-bat/JSON.git
+	 
+6. Внутри локального JSON создать файл “new.json”:
+	$ cd JSON ; touch new.json
+	 
+7. Добавить файл под гит:
+	$ git status
+	$ git add new.json
+	 
+8. Закоммитить файл:
+	$ git status
+	$ git commit -m "Added an empty file: new.json"
+	 
+9. Отправить файл на внешний GitHub репозиторий:
+	$ git status
+	$ git push	
+	$ git status
+	 	 
+10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON:
+	$ echo -e "{\n \"courseName\" : \"QA Course by Vadim Ksendzov\",\n \"groupName\" : \"Group_30_QA\",\n \"taskName\" : \"GIT homework 1 (JSON)\",\n \"invironment\" : \"Windows 10, Notepad++\",\n\n \"telegram\" : \"@maks_tbat\",\n \"location\" : \"Minsk, Belarus\",\n\n\n \"infoAboutme\" : [\n  {\n   \"name\" : \"Maksim\",\n   \"surname\" : \"Batrakou\",\n   \"age\" : 41,\n   \"petsNumber\" : 1,\n   \"expectedSalary\" : \"\$2000 a month\"\n  }\n ]\n}" > new.json ; cat new.json
+	 
+11. Отправить изменения на внешний репозиторий:
+	$ git status
+	$ git commit -am "Added the information about myself in the file: new.json"
+	$ git status
+	$ git push
+	$ git status
+	
+12. Создать файл preferences.json:
+	touch preferences.json
+	 
+13. В файл preferences.json” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, страна, которую хотели бы посетить) в формате JSON:
+	$ echo -e "{\n \"courseName\" : \"QA Course by Vadim Ksendzov\",\n \"groupName\" : \"Group_30_QA\",\n \"taskName\" : \"GIT homework 1 (JSON)\",\n \"invironment\" : \"Windows 10, Notepad++\",\n\n \"telegram\" : \"@maks_tbat\",\n \"location\" : \"Minsk, Belarus\",\n\n\n \"infoMypreferences\" : [\n  {\n   \"favourMovie\" : \"Transformers\",\n   \"favourSeries\" : \"Stranger Things\",\n   \"favourFood\" : \"Pan-fried potatoes\",\n   \"favourSeason\" : \"Summer\",\n   \"favourCountry\" : \"Poland\"\n  }\n ]\n}" > preferences.json ; cat preferences.json
+	 
+14. Создать файл sklls.json, добавить информацию о скиллах, которые будут изучены на курсе в формате JSON:
+	$ touch sklls.json ; echo -e "{\n \"courseName\" : \"QA Course by Vadim Ksendzov\",\n \"groupName\" : \"Group_30_QA\",\n \"taskName\" : \"GIT homework 1 (JSON)\",\n \"invironment\" : \"Windows 10, Notepad++\",\n\n \"telegram\" : \"@maks_tbat\",\n \"location\" : \"Minsk, Belarus\",\n\n\n \"getSlills\" : [\n  {\n   \"point01\" :  \"1. Базовая теория (Что такое тестирование, багрепорты, документация, виды, методы, направления тестирования и т.п.) SDLC, STLC.\",\n   \"point02\" :  \"2. Что такое клиент-серверная архитектура.\",\n   \"point03\" :  \"3. HTTP Методы запросов на сервер.\",\n   \"point04\" :  \"4. Коды ответов HTTP сервера.\",\n   \"point05\" :  \"5. Структуры HTTP запросов и ответов.\",\n   \"point06\" :  \"6. Что такое JSON, XML. Их структура.\",\n   \"point07\" :  \"7. Тестирование API через Postman (JS, автотесты API).\",\n   \"point08\" :  \"8. Снятие и чтение логов c внешнего сервера.\",\n   \"point09\" :  \"9. Снифинг http web трафика через Charles и Fiddler.\",\n   \"point10\" : \"10. Dev Tools веб браузеров (Google Chrome, FireFox).\",\n   \"point11\" : \"11. VPN. (Как работает, зачем нужен, как использовать, варианты инструментов).\",\n   \"point12\" : \"12. Мобильное тестирование.\",\n   \"point13\" : \"13. Особенность iOS, Android, гайдлайны.\",\n   \"point14\" : \"14. Сборка iOS приложений на XCode. (У кого нет Mac компьютера, просто посмотрят).\",\n   \"point15\" : \"15. Сборка Android приложений на Android Studio.\",\n   \"point16\" : \"16. ADB (управление андройд девайсами).\",\n   \"point17\" : \"17. Настройка прокси и vpn на iOS и Android.\",\n   \"point18\" : \"18. Перехват (сниффинг) мобильного трафика через Charles и Fiddler на iOS и Android.\",\n   \"point19\" : \"19. Командная строка (terminal) Linux (копирование, создание, просмотр, перемещение файлов на серверах без графического интерфейса).\",\n   \"point20\" : \"20. Основы bash скриптинг, автоматизация рутинных задач на сервере.\",\n   \"point21\" : \"21. Доступ к удалённым серверам.\",\n   \"point22\" : \"22. Основы SQL (Create, Delete, Drop, Insert Into, Select, From, Where, Join).\",\n   \"point23\" : \"23. База данных Postgres (установка, настройка и использование).\",\n   \"point24\" : \"24. Нереляционная база данных Redis (установка, настройка и использование).\",\n   \"point25\" : \"25. Нагрузочное тестирование в Jmeter.\",\n   \"point26\" : \"26. Методология разработки Scrum.\",\n   \"point27\" : \"27. Python. (Изучение основ. Создание клиент серверного приложения).\"\n  }\n ]\n}" > sklls.json ; cat sklls.json
+		 
+15. Отправить сразу 2 файла на внешний репозиторий:
+	$ git status
+	$ git add preferences.json sklls.json
+	$ git status
+	$ git commit -m "Added two files with information about my preferences and my future skills that I will be able to get on the course: preferences.json and sklls.json"
+	$ git status
+	$ git push
+	 
+16. На веб интерфейсе создать файл bug_report.json:
+	GitHub (Add file - Create new file - Fill in "Name your file")	
+	 	 
+17. Сделать Commit changes (сохранить) изменения на веб интерфейсе:
+	GitHub (Write a commit massage and press "Commit new file")
+	 
+18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON:
+	GitHub (Go to file "bug_report.json" - Edit this file - Fill in the file)
+
+19. Сделать Commit changes (сохранить) изменения на веб интерфейсе:
+	GitHub (Press "Commit changes")
+	 
+20. Синхронизировать внешний и локальный репозиторий JSON:
+	$ git pull
+	 
+END
